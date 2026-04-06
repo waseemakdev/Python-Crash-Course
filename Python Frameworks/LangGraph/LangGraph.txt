@@ -1,1 +1,6 @@
 What is LangGraph. Why its needed.? What was before of this?
+
+LangGraph is an open-source framework developed by LangChain designed to build, deploy, and manage complex, stateful generative AI agent workflows.
+
+It's need:
+While linear frameworks like LangChain Expression Language (LCEL) are excellent for simple RAG (Retrieval-Augmented Generation) pipelines, they struggle when tasks require reasoning, loops, and self-correction.
