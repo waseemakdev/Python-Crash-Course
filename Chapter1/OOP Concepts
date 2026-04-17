@@ -33,6 +33,9 @@ Public access modifier mean is we can access data in simply publicly any ware.
 Protected access mofifier mean we access the data with in the class and our derived class as well.
 
 
+/// Setters & Getters
+Setters and Getters are allowing controlled access, validation and security for private object properties.
+
 class teacher{
 
 // Attributes/ properties ---> creating variables in class called attribures/ properties.
@@ -62,4 +65,182 @@ teacher obj1; <--- Creating object
 }
 
 
+Types of OOP's
 
+Encapsulation:
+
+Encapsulation mean is wrapping up of data & member functions in a single unit called class. typically it's purpose is to 
+protect data by data hiding techniques that restrict directly access of data to main function or program.
+
+Difference between a class and Encapsulation:
+Think class as a container and Encapsulation as a technique/method to protect the container.
+Class is a blue print or template use to create objects while Encapsulation is a process of hiding internal data and restricting access.
+
+Class collects methods and data together in one place while Encapsulation protect that data within that collection.
+
+Class is a physical structure of a code while Encapsulation is a concept or principle of oop.
+
+
+/// Constructor
+
+What is Constructor?
+
+Constructor is a concept of special function that automatically invike when the object created. it's main purpose is to initialize data
+e.g. when object is created it's work is to intialize that object/instance  data to allocate memory.
+
+It is same as class name. it does not have a return type.
+
+There are three type of constructor.
+
+Non-Parametrized Constructor:
+
+It's mean when we call the constructor this will do'nt have any parameters. e.g.
+
+clss teacher{
+
+ teacher(){
+cout<<"I'm a non- parametrized constructor";
+ }
+}
+
+Parametrized Constructor:
+it's simple mean is we create constructor with parameters. e.g.
+
+clss teacher{
+
+ teacher(string name, string, department){
+cout<<"I'm a parametrized constructor";
+ }
+}
+
+
+
+Constructor Overloading:
+Constructor overloading mean when we create multiple constructor with different parameters. e.g.
+constructor overloading is a example of polymorphism.
+
+clss teacher{
+
+ teacher(string name, string, department){
+cout<<"I'm a parametrized and constructor overloading.";
+ }
+
+teacher(string department, string accountID, string password, string name){
+cout<<"I'm a parametrized and constructor overloading.";
+ }
+}
+
+this pointer in C++
+
+this pointer is a special method in C++ which use to detect current object. this will use to specify the object in a 
+method when writting a setter function. e.g.
+
+teacher(string department, string accountID, string password, string name){
+  this-> name= name;
+
+ }
+It's main purpose is to specify the object
+
+
+Copy Constructor:
+
+Copy constructor (default) used to copy one object values to into another object.
+
+int main(){
+teacher t2;
+teacher t1(t2); <---- this is copy constructor.
+}
+
+There are two types of Copy that is shallow copy & Deep Copy.
+
+Shallow Copy: A Shallow copy of an object copies of all the member values from one object to another object.
+e.g. it's simply create the refernce pointer and share the reference of that pointer when create a new pointer.
+
+Deep Copy: A deep copy, on the other hand, not only copies the member values but also make copies of any dynamically allocated memory
+that the members that the members point to. let's look into a example we create 1 object and it's have name and number values and I 
+want to copy the details of that object into new object but I want to change a number value in that object so I need to create a new
+pointer that is called dynamically allocate that number to that object.
+
+/// Destructor: destructor is a special function and this will opposite to constructor. it's mean if constructor used to allocate
+memory than destructor use to de-allocate memory.
+
+We use destructor to avoid memory leakge.
+
+/// inheritance <------------ A pillar in oop.
+simply we know our parents pass their characteristic to child so this is called inheritance. in programming we use same things
+we pass parent class data to child class. we called parent class as base class as well and child class as derived class as well.
+e.g.
+
+class parent{
+  parent(string name){
+  cout<<"my name is :"<<name;
+  }
+}
+
+class child: parent{
+ void getinfo(){
+  cout<<"name"<<name;
+  cout<<"age:"<<age;
+ }
+}
+There are 5 types of inheritance.
+Single inheritance: means it's only one level of inhertiance from 1 base class to 1 derived class.
+
+
+////////////////////////////////////////////////////////////////
+
+Multi-Level inheritance: means it's implement the inheritance on multi-level e.g. it have 1 base class inherit to 1 child class but it 
+aslo have third class that access the dervied class and with the help of derived class it will also access the parent class data as well.
+simple it's create the chain of inheritance. .e.g. grandparent to parent and from parent to child
+class parent{
+string name;
+  getdata(string name){
+  cout<<"my name is :"<<name;
+  }
+}
+
+class child: parent{
+int age;
+ void getinfo(){
+  cout<<"name"<<name;
+  cout<<"age:"<<age;
+ }
+}
+
+class thirdclass: public child{
+ rollNo=0;
+void getinfo(){
+
+print the name,age and roll number.
+
+}
+}
+
+Multiple Inheritance: means it's simply get the data from multiple classes e.g. it'll get the data from student class and from 
+teacher class and assign the data to Teacher assistant(TA) class.
+e.g.
+
+class teacher{
+string sibject;
+
+}
+
+class student{
+string name;
+}
+
+class TA: public student, public teacher{
+ getinfor(){
+  //print name and subject of teacher.
+ }
+}
+
+Hierarchial Inheritance: means it's inheritance from single parent class to multiple chlid classes.
+
+e.g. student(), teacher() are inherited from person() class or
+truck, car,bus are inherited from vehicle.
+
+Hybrid inheritance: means it's the mix of all inheritance e.g. any class can inhertied from any superclass or base class.
+There's not limitation of any inhertiance in this to transfer/ share the data.
+
+Polumorphism
