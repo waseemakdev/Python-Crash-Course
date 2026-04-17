@@ -1,6 +1,6 @@
 What is OOP?
 OOP is stand for object oriented programming. which is paradigm /pattern /model of software development where it use objects and 
-methods colbines to develop efficient softwares and write modular, resuable, maintainable code and softwares rather than only
+methods combines to develop efficient softwares and write modular, resuable, maintainable code and softwares rather than only
 functions and logic.
 
 Key Principles of OOP / Types of OOP:
@@ -85,7 +85,7 @@ Class is a physical structure of a code while Encapsulation is a concept or prin
 
 What is Constructor?
 
-Constructor is a concept of special function that automatically invike when the object created. it's main purpose is to initialize data
+Constructor is a concept of special function that automatically invoke when the object created. it's main purpose is to initialize data
 e.g. when object is created it's work is to intialize that object/instance  data to allocate memory.
 
 It is same as class name. it does not have a return type.
@@ -119,7 +119,7 @@ Constructor Overloading:
 Constructor overloading mean when we create multiple constructor with different parameters. e.g.
 constructor overloading is a example of polymorphism.
 
-clss teacher{
+class teacher{
 
  teacher(string name, string, department){
 cout<<"I'm a parametrized and constructor overloading.";
@@ -265,7 +265,7 @@ another example of shapes in tools it will use shape but uses rectangle,square, 
 
 There are two types of polymorphism
 compile time polymorphism is also called static polymorphism
-run time polymorphism define at the creation of method/function to select which operation is perform. e.g. it's the example 
+compile time polymorphism define at the creation of method/function to select which operation is perform. e.g. it's the example 
 of constructor overloading and fucntion overloading and operator overloading.
 function overloading is this.
 
