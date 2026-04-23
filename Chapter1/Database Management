@@ -52,4 +52,5 @@ Boyce Codd Normal Form (BCNF)
 4rth Normal Form
 5th Normal Form
 
+Minimal Corner (Irreducible Set of Functional Dependencies)
 Keys, 
