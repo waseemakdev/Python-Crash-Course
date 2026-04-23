@@ -53,4 +53,6 @@ Boyce Codd Normal Form (BCNF)
 5th Normal Form
 
 Minimal Corner (Irreducible Set of Functional Dependencies)
+
+A minimal cover or (cononical cover) in DBMS is the simples, irreducible set of functional dependencies (D.F)
 Keys, 
