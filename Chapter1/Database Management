@@ -10,6 +10,8 @@ Unstructured Data
 
 3 tier architecture
 
+client -> Server & Logical view and other stuff -> Database 
+
 Schema,
 
 Schema Architecture,
