@@ -127,6 +127,8 @@ Co-related Sub-Query (Synchronized Query)
 
 Find all employees details who work in a department.
 
+Nested Query without Correlation
+
 serializability
 
 
