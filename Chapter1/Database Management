@@ -134,6 +134,8 @@ Difference b/w  joins, Nested Sub-quries and correlated Sub-query
 Introduction to PL-SQL
 
 Introduction to Transaction Concurrency
+
+ACID Properties in Transcation Concurrency
 serializability
 
 
