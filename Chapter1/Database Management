@@ -125,6 +125,8 @@ Aggregate Functions
 
 Co-related Sub-Query (Synchronized Query)
 
+Find all employees details who work in a department.
+
 serializability
 
 
