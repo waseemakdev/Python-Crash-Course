@@ -139,7 +139,7 @@ ACID Properties in Transcation Concurrency
 
 Atomicity is either null or rollback
 
-Consistency
+Consistency (Transaction don not affect each other)
 
 Isolation
 
