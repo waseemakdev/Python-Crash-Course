@@ -153,6 +153,27 @@ Serial Vs Parallel
 
 Types of Problems in Concurrency
 
+Cascading schedule
+
+Cascadeless Schedule
+
+Serializability
+
+Conflict Seriallizability
+-> Precedence graph
+-> Non cycle loop graph
+->
+view serializability
+
+Concurrency control protocol
+
+is a protocol where it'll used to build  a serializability and recoverability
+
+types of ccp
+
+shared protocol
+exclusive protocol
+2 phase locking (2pl)
 
 
 Write-Read Conflicts (Dity Read Problem or Unrepeatable Read Problem)
