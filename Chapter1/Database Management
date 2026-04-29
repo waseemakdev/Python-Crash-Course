@@ -137,7 +137,7 @@ Introduction to Transaction Concurrency
 
 ACID Properties in Transcation Concurrency
 
-Atomicity
+Atomicity is either null or rollback
 
 Consistency
 
@@ -152,6 +152,8 @@ What is Schedule?
 Serial Vs Parallel
 
 Types of Problems in Concurrency
+
+
 
 Write-Read Conflicts (Dity Read Problem or Unrepeatable Read Problem)
 serializability
