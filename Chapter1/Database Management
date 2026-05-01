@@ -185,11 +185,8 @@ Time Stamp
 
 
 Write-Read Conflicts (Dity Read Problem or Unrepeatable Read Problem)
-serializability
 
-conflict serializablitiy
-
-view serializability
+Time Stamp operating protocol
 
 
 
