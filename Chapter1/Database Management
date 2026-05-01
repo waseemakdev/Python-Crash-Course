@@ -190,3 +190,8 @@ Time Stamp operating protocol
 
 What is indexing and what is it used for?
 
+Types of indexing:
+
+=> Primary indexing
+=> Secondary indexing
+=> clustered indexing
