@@ -199,3 +199,7 @@ Types of indexing:
 Dynamic Multilevel indexing => B-Tree
 
 Difference b/w B-Tree and B+-Tree
+
+Deferred Badatabase Modification(Log based Recovery)
+
+Immediate Database Modification(Log based Recovery)
