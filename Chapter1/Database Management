@@ -206,5 +206,8 @@ Deferred Badatabase Modification(Log based Recovery)
 
 Immediate Database Modification(Log based Recovery)
 
+Sql Functions
+=> Single row function
+=> Multi row function
 
 12 rule of codd
