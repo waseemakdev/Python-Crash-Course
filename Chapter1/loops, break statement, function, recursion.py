@@ -72,3 +72,5 @@ def print_list(list2,n):
 list1=[1,2,3,4,5]
 print("Hello ")
 print_list(list1, len(list1)-1)
+
+# Arithmetic Operation
