@@ -74,3 +74,8 @@ print("Hello ")
 print_list(list1, len(list1)-1)
 
 # Arithmetic Operation
+=> Multiplication 21+5
+=> Subtraction 21-5
+=> Addition 21*5 
+=> Division 21/5
+=> Floor Operation 21//5
