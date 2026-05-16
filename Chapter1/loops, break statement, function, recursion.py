@@ -83,3 +83,5 @@ print_list(list1, len(list1)-1)
 #Tuple and Functions
 
 # Dictionaries in Python
+
+# Lambda Functions
