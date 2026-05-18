@@ -88,3 +88,4 @@ print_list(list1, len(list1)-1)
 # Map Function
 # Map Multiple iterations iterables
 # Map to convert a list of strings to integers
+# Use map to convert strings to integer
