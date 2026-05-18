@@ -96,3 +96,4 @@ print_list(list1, len(list1)-1)
 # OOP in python 
 # class and object
 # Inheritance in Python
+# Multiple Inheritance
