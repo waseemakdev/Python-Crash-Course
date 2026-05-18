@@ -99,3 +99,4 @@ print_list(list1, len(list1)-1)
 # Multiple Inheritance
 # Polymorphism
 # Method overriding
+# functional that demonstrates polymorphism
