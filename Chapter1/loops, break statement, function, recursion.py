@@ -86,4 +86,5 @@ print_list(list1, len(list1)-1)
 
 # Lambda Functions
 # Map Function
-# Map Multiple iteration iterables
+# Map Multiple iterations iterables
+# Map to convert a list of strings to integers
