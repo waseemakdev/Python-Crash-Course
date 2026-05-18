@@ -86,6 +86,3 @@ print_list(list1, len(list1)-1)
 
 # Lambda Functions
 #Functions 
-#details
-#data
-#values
