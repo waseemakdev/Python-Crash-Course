@@ -103,3 +103,4 @@ print_list(list1, len(list1)-1)
 # functions
 # Pytorch
 # RAG Pipelines
+# Agentic AI
