@@ -103,8 +103,9 @@ print_list(list1, len(list1)-1)
 # def animal_speak(animal):
 #  print(animal.spkeak)
 # Abstract Base Classes (ABC'S)
-# Polymorphism
-# functional that demonstrates polymorphism
+# Encapsulation and Abstraction
+# Setter and Getter Method
+# Abstraction
 # functions
 # Pytorch
 # RAG Pipelines
