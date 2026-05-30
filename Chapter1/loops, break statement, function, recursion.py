@@ -99,6 +99,9 @@ print_list(list1, len(list1)-1)
 # Multiple Inheritance
 # Polymorphism
 # Method overriding
+#functional that demonstrates polymorphism
+# Abstract Base Classes (ABC'S)
+# Polymorphism
 # functional that demonstrates polymorphism
 # functions
 # Pytorch
