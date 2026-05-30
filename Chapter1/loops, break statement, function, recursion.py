@@ -100,6 +100,8 @@ print_list(list1, len(list1)-1)
 # Polymorphism
 # Method overriding
 #functional that demonstrates polymorphism
+# def animal_speak(animal):
+#  print(animal.spkeak)
 # Abstract Base Classes (ABC'S)
 # Polymorphism
 # functional that demonstrates polymorphism
