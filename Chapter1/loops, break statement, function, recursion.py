@@ -106,6 +106,11 @@ print_list(list1, len(list1)-1)
 # Encapsulation and Abstraction
 # Setter and Getter Method
 # Abstraction
+
+# Abstract is hiding the complex implementation details and showing only the necessary  features  of an object. This helps in reducing the proframming 
+# complexity and effort.
+
+
 # functions
 # Pytorch
 # RAG Pipelines
