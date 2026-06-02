@@ -120,3 +120,11 @@ print_list(list1, len(list1)-1)
 # Data Pipeline
 # Lambda Functions
 # How these works
+# Standard function
+def add_ten(x):
+    return x + 10
+
+# Equivalent lambda function
+add_ten_lambda = lambda x: x + 10
+
+print(add_ten_lambda(5))  # Output: 15
