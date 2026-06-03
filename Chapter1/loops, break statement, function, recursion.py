@@ -119,6 +119,9 @@ print_list(list1, len(list1)-1)
 # Pipelines
 # Data Pipeline
 # Lambda Functions
+# A lambda function (often called an anonymous function) is a small, one-off function defined without a name. 
+# It is primarily used to pass simple, quick logic into other functions and is widely used in programming languages like Python, JavaScript, and Java.
+
 # How these works
 # Standard function
 def add_ten(x):
