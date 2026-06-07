@@ -133,3 +133,4 @@ add_ten_lambda = lambda x: x + 10
 print(add_ten_lambda(5))  # Output: 15
 # Python Crashes
 # breaks & statement
+# Real Life use case of Lambda functions.
