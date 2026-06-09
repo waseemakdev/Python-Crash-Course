@@ -138,3 +138,4 @@ print(add_ten_lambda(5))  # Output: 15
 # Langgraph details
 # Streamlit
 # OS Update
+# Operational Architecture
