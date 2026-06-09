@@ -134,3 +134,4 @@ print(add_ten_lambda(5))  # Output: 15
 # Python Crashes
 # breaks & statement
 # Real Life use case of Lambda functions.
+# Langchain Update
