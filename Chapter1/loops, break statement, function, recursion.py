@@ -137,3 +137,4 @@ print(add_ten_lambda(5))  # Output: 15
 # Langchain Update
 # Langgraph details
 # Streamlit
+# OS Update
