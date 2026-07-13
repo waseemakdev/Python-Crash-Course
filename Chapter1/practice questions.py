@@ -4,5 +4,4 @@
 # DSA in Python practice question.
 # Langchain
 # LangGraph
-# Lang
 # Langsmith
